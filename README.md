@@ -1,3 +1,5 @@
+给不熟悉程序员这套的RMA同行一句话解释:
+把CQV_MASTER_WORKFLOW.md下载下来做为附件和申请人的中英文成绩单一起丢到Claude的Prompt里面运行, 它会判断是否有Semester然后生成两个.xfdf文件, 一个对应Editable PDF Chinese一个对应English. .然后用Acrobat打开VETASSESS给的Editable PDF模板, 选Prepare Form-Import Data打开对应的xfdf文件(Acrobat默认是fdf文件, 需要在右下角文件类型选择换成xfdf), 等几秒种所有信息就自动导入进来了; 
 # CQV XFDF Toolkit
 
 Automated pipeline for converting Chinese university transcripts into XFDF import files for CQV (Course Qualification Verification) editable PDF forms, commonly used in Australian migration and education applications.
